@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 720px;
+	min-width: 360px;
+	padding: 0 15px;
+	margin: 0 auto;
+	&:after {
+	display: table;
+	content: ' ';
+	clear: both;
+	}
+}
